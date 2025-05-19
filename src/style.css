@@ -3,3 +3,25 @@
 body{
     background: white;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  background: linear-gradient(90deg, #3498db, #9b59b6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+}
+
+#excuse:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
